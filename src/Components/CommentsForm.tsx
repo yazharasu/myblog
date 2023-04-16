@@ -62,10 +62,10 @@ const CommentsForm = ({ slug }) => {
       .then((res) => {
         if (res.createComment) {
           if (!storeData) {
-            formData.name = '';
-            formData.email = '';
+            formData.name = ' ';
+            formData.email = ' ';
           }
-          formData.comment = '';
+          formData.comment = ' ';
           setFormData((prevState) => ({
             ...prevState,
             ...formData,
