@@ -15,7 +15,7 @@ export default function Home({posts}) {
 
           <div className='col-span-1 lg:col-span-4'>
               <div className='lg:sticky relative top-24'>
-                <Widget />
+                <Widget categories={""} slug={""}/>
                 <Categories />
               </div>
           </div>
