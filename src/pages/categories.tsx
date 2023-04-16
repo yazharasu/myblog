@@ -25,7 +25,7 @@ const Categories = ({ categories }) => {
         </div>
         <div className="col-span-1 lg:col-span-4 lg:col-start-9">
           <div className="relative lg:sticky top-8">
-            <Widget />
+            <Widget categories={categories} slug={""}/>
           </div>
         </div>
       </div>
