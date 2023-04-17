@@ -17,7 +17,7 @@ const Header = () => {
             <div className='md:float-left block'>
                 <Link href="/">
                     <span className='cursor-pointer font-bold text-2xl text-gray-600 hover:text-black transition ease-in-out duration-500'>
-                        WebDev Hacks
+                        Yazharasu AJ
                     </span>
                 </Link>
             </div>
