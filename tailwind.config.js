@@ -6,8 +6,8 @@ module.exports = {
     './src/pages/**/*.tsx',
     './src/pages/*.ts',
     './src/pages/*.tsx',
-    './src/components/*.ts',
-    './src/components/*.tsx'
+    './src/Components/*.ts',
+    './src/Components/*.tsx'
   ],
   theme: {
     extend: {
